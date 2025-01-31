@@ -1,5 +1,9 @@
 # Frontend Mentor - QR code component
 
+first read:
+https://web.dev/learn/html/
+https://web.dev/learn/css/
+
 ![Design preview for the QR code component coding challenge](./preview.jpg)
 
 ## Welcome! 👋
