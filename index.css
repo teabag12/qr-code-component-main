@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(213, 225, 239);
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    width: 100vw;
+    font-family: Outfit, Arial, Helvetica, sans-serif;  
+}
+
+.attribution { 
+    font-size: 1.3vh; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shape {
+    height: 47vh;
+    width: 30vh;
+    background-color: white;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.qr-code {
+    width: 90%;
+    margin-top: 5%;
+    display: inline-block;
+}
+
+.rounded-corner {
+    border-radius: 3vw;
+}
+
+#qr-description {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.6vh;
+}
+
+#qr-description-heading {
+    color: black;
+}
+
+#qr-description-text{
+    color: grey;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
